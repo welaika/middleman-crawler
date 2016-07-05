@@ -1,2 +1,3 @@
-require 'bundler/setup'
-require 'bundler/gem_tasks'
+require 'bundler'
+Bundler.setup
+Bundler::GemHelper.install_tasks

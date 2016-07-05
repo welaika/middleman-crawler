@@ -1,5 +1,6 @@
 require 'middleman-core/cli'
 require 'middleman-core/rack' if Middleman::VERSION.to_i > 3
+require 'middleman-deploy/extension'
 
 require 'rawler'
 

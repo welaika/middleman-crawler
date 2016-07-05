@@ -1,5 +1,8 @@
 require 'middleman-core'
 
-Dir[File.join File.dirname(__FILE__), 'middleman-crawler', '**', '*.rb'].each {|file| puts file; require file }
+require 'middleman-crawler/commands'
 
-::Middleman::Extensions.register :crawler, Crawler
+::Middleman::Extensions.register(:crawler) do
+  require 'middleman-crawler/extension'
+  ::Middleman::Deploy::Extension
+end
