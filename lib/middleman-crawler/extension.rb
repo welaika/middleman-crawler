@@ -14,7 +14,6 @@ class Crawler < ::Middleman::Extension
     # require 'necessary/library'
 
     # set up your extension
-    puts options.my_option
   end
 
   def after_configuration
