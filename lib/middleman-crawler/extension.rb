@@ -4,6 +4,8 @@ require 'middleman-core'
 # Extension namespace
 class MiddlemanCrawler < ::Middleman::Extension
 
+  expose_to_template :crawler
+
   def initialize(app, options_hash={}, &block)
     # Call super to build options from the options_hash
     super
