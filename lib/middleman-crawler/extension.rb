@@ -2,7 +2,7 @@
 require 'middleman-core'
 
 # Extension namespace
-class MiddlemanCrawler < ::Middleman::Extension
+class Crawler < ::Middleman::Extension
 
   expose_to_template :crawler
 
