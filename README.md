@@ -59,3 +59,7 @@ In CLI you can write `middleman crawler http://example.com [options]`
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Author
+
+made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
