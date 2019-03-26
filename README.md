@@ -63,3 +63,9 @@ In CLI you can write `middleman crawler http://example.com [options]`
 ## Author
 
 made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
+
+## License
+
+Copyright © 2016-2019 [weLaika](http://dev.welaika.com)
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
